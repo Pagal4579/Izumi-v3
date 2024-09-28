@@ -1,92 +1,137 @@
-{
-  "name": "Izumi-v3",
-  "description": "Izumi a Multi Device WhatsApp bot",
-  "logo": "https://i.imgur.com/Hgiamot.jpeg",
-  "keywords": ["whatsapp"],
-  "repository": "https://github.com/sataniceypz/Izumi-v3",
-  "website": "https://eypz-izumi.vercel.app",
-  "success_url": "https://github.com/sataniceypz/Izumi-v3",
-  "stack": "container",
-  "env": {
-    "SESSION_ID": {
-      "description": "Enter your session id",
-      "required": true
-    },
-    "HEROKU": {
-      "description": "Don't change this",
-      "required": true,
-      "value": "true"
-    },
-    "HEROKU_APP_NAME": {
-      "description": "Heroku app name, same as above entered",
-      "required": true
-    },
-    "HEROKU_API_KEY": {
-      "description": "Heroku account API key, https://dashboard.heroku.com/account",
-      "required": true
-    },
-    "MENU_URL": {
-      "description": "Add URL of image or video",
-      "required": false,
-      "value": "https://i.imgur.com/8H2hM6D.jpeg"
-    },
-    "BOT_NAME": {
-      "description": "Enter your bot name",
-      "required": false,
-      "value": "Iᴢᴜᴍɪ-ᴍᴅ"
-    },
-    "STICKER_PACKNAME": {
-      "description": "Enter your sticker pack name",
-      "required": false,
-      "value": "Iᴢᴜᴍɪ-ᴍᴅ"
-    },
-    "AUDIO_DATA": {
-      "description": "Enter your audio data (title, author, link)",
-      "required": false,
-      "value": "enjoy this song, Iᴢᴜᴍɪ-v3, https://i.imgur.com/cO0TZJv.jpeg"
-    },
-    "OWNER_NAME": {
-      "description": "Enter your name",
-      "required": false,
-      "value": "Eʏᴘᴢ"
-    },
-    "CAPTION": {
-      "description": "Enter your caption",
-      "required": false,
-      "value": ""
-    },
-    "PREFIX": {
-      "description": "Prefix for bot",
-      "required": false,
-      "value": "."
-    },
-    "AUTHOR": {
-      "description": "Enter sticker pack author name",
-      "required": false,
-      "value": "Eypz"
-    },
-    "SUDO": {
-      "description": "Add Sudo number",
-      "required": false,
-      "value": "919876543210"
-    },
-    "MODE": {
-      "description": "Bot work type",
-      "required": true,
-      "value": "private"
-    }
-  },
-  "addons": [
+[
     {
-      "plan": "heroku-postgresql"
-    }
-  ],
-  "buildpacks": [
-    {
-      "url": "heroku-community/apt"
+        "key": "dbln",
+        "value": "%7B%2261551896075721%22%3A%22Bk0tvSXO%22%2C%2261563240066217%22%3A%22k1wLOgjV%22%2C%2261566389824308%22%3A%223WksH4uM%22%2C%2261559532722844%22%3A%22P6234v35%22%7D",
+        "domain": "facebook.com",
+        "path": "/login/device-based/",
+        "hostOnly": false,
+        "creation": "2024-09-28T03:29:03.848Z",
+        "lastAccessed": "2024-09-28T03:29:03.848Z"
     },
     {
-      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+        "key": "datr",
+        "value": "SlH2Zlap6BjwITZufJPy5EFh",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-09-28T03:29:03.848Z",
+        "lastAccessed": "2024-09-28T03:29:03.848Z"
+    },
+    {
+        "key": "sb",
+        "value": "SlH2ZgbovxjEryM0LgkPBudS",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-09-28T03:29:03.848Z",
+        "lastAccessed": "2024-09-28T03:29:03.848Z"
+    },
+    {
+        "key": "locale",
+        "value": "en_GB",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-09-28T03:29:03.848Z",
+        "lastAccessed": "2024-09-28T03:29:03.848Z"
+    },
+    {
+        "key": "ps_l",
+        "value": "1",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-09-28T03:29:03.848Z",
+        "lastAccessed": "2024-09-28T03:29:03.848Z"
+    },
+    {
+        "key": "ps_n",
+        "value": "1",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-09-28T03:29:03.848Z",
+        "lastAccessed": "2024-09-28T03:29:03.848Z"
+    },
+    {
+        "key": "dpr",
+        "value": "3.2983407974243164",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-09-28T03:29:03.848Z",
+        "lastAccessed": "2024-09-28T03:29:03.848Z"
+    },
+    {
+        "key": "vpd",
+        "value": "v1%3B680x360x3",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-09-28T03:29:03.848Z",
+        "lastAccessed": "2024-09-28T03:29:03.848Z"
+    },
+    {
+        "key": "m_pixel_ratio",
+        "value": "3",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-09-28T03:29:03.848Z",
+        "lastAccessed": "2024-09-28T03:29:03.848Z"
+    },
+    {
+        "key": "wd",
+        "value": "360x680",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-09-28T03:29:03.848Z",
+        "lastAccessed": "2024-09-28T03:29:03.848Z"
+    },
+    {
+        "key": "c_user",
+        "value": "61559532722844",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-09-28T03:29:03.848Z",
+        "lastAccessed": "2024-09-28T03:29:03.848Z"
+    },
+    {
+        "key": "fr",
+        "value": "0ZhBMKuxN7BEn32Ff.AWXx4xm2E9uqgJwpzyMz-r2PGSE.Bm9lFK..AAA.0.0.Bm93fs.AWW8IfOVYD4",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-09-28T03:29:03.848Z",
+        "lastAccessed": "2024-09-28T03:29:03.848Z"
+    },
+    {
+        "key": "xs",
+        "value": "43%3AtDY958RXNontvg%3A2%3A1727494124%3A-1%3A5903",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-09-28T03:29:03.848Z",
+        "lastAccessed": "2024-09-28T03:29:03.848Z"
+    },
+    {
+        "key": "wl_cbv",
+        "value": "v2%3Bclient_version%3A2633%3Btimestamp%3A1727494126",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-09-28T03:29:03.848Z",
+        "lastAccessed": "2024-09-28T03:29:03.848Z"
+    },
+    {
+        "key": "fbl_st",
+        "value": "100725861%3BT%3A28791568",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-09-28T03:29:03.848Z",
+        "lastAccessed": "2024-09-28T03:29:03.848Z"
     }
-  ]
-}
+]
